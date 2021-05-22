@@ -2,7 +2,7 @@
 layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
 	<title>n-buna404's blog</title>
 	<link href="https://n-buna404.github.io/blog/atom.xml" rel="self"/>
