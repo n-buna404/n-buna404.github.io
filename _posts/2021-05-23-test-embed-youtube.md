@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "embed youtubr"
+title: "embed youtube"
 date: 2021-05-23
 ---
 
