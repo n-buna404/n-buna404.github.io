@@ -42,6 +42,12 @@ ul.posts li {
     list-style: none;
 }
 
+img {
+	width: 400px;
+	display: inline-block;
+	margin: 20px;
+}
+
 /* The follwing css to resize video based on screen size */
 .video-container {
 	position:relative;
