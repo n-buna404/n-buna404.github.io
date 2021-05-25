@@ -1,56 +1,39 @@
-
-.ugb-video-popup {
-	position: relative;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 600px;
-}
-.ugb-video-preview, a, .ugb-play-button {
-	position: absolute;
-	top: 0;		
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-.ugb-video-preview {
-	background-size: cover;
-	background-position: center;
-	opacity: .4;
-	transition: all .3s ease-in-out;
-	z-index: 1;
-	object-fit: fill;
-	width: 100%;
+/* Centered child element can be any width and height */
+.centeredchild{
+    position: relative; /* position element to participate in z-indexing */
+    z-index: 20; /* higher z-index than overlay */
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%; /* can be any width */
 }
 
-.ugb-video-wrapper {
-	position: relative;
-	width: 100%;
-	padding-bottom: 56.25%;
+/* Video container to maintain Youtube 16:9 aspect ratio */
+.videowrapper{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
 }
-a {
-		z-index: 3;
-		box-shadow: none !important;
-		background: transparent !important;
-		display: block !important;
-		color: #fff;
-		text-decoration: none;
-	}
-	.ugb-play-button {
-		z-index: 2;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	svg {
-		fill: #fff !important;
-	}
-.modal-open-link {
-	font-family: sans-serif;
-	font-size: 25px;
-	color: #464646;
-	width: 50px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	
+
+/* Make Youtube IFRAME responsive */
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#home-youtube-copy{
+    color: #f6921e;
+}
+
+.home-play-btn{
+    padding-top: 1em;
+    color: #FFFFFF;
+}
+
+.home-play-btn:hover{
+    color: #f6921e;
 }
