@@ -20,13 +20,6 @@ $(document).ready(function(){
       openbox();
     });
 
-    // On click of element with class .close
-      // In this case, this is the X button when the lightbox is open
-    $('.close').click(function(){
-      // Run the closebox function
-      closebox();
-    });
-
     // On click of element with class .lightbox-backdrop
       // In this case, the element wrapping the lightbox and iframe elements
     $('.lightbox-backdrop').click(function(){
