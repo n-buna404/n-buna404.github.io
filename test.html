@@ -8,15 +8,148 @@
     </head>
     <body>
         
-<!-- PUT YOUTUBE VIDEO ID, VIMEO VIDEO ID OR VIDEO MP4 URL IN DATA-VIDEO ATTRIBUTE -->
-<div class="ugb-video-popup" style="
-	background: #000;"
- 	 data-video='1B9rLGfc9Vo'
-	 data-video='https://www.youtube.com/watch?v=1B9rLGfc9Vo'
-	 >
-	<div class="modal-open-link">
-		<a href="#"> Demo Reel</a>
-	</div>
+<div>
+        <a href="https://www.youtube.com/embed/gUNSGk3SHhI" class="lightbox"><i class="fa fa-play fa-8 home-play-btn" aria-hidden="true"  style="font-size: 4em"></i></a>
 </div>
+<div id="youtubelightbox" class="parent">
+        <div class="centeredchild">
+            <div class="videowrapper">
+                <div id="playerdiv"></div>
+            </div>
+        </div>
+    </div>
+    
+#3. Include the following css 
+/* Centered child element can be any width and height */
+.centeredchild{
+    position: relative; /* position element to participate in z-indexing */
+    z-index: 20; /* higher z-index than overlay */
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%; /* can be any width */
+}
+
+/* Video container to maintain Youtube 16:9 aspect ratio */
+.videowrapper{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+/* Make Youtube IFRAME responsive */
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#home-youtube-copy{
+    color: #f6921e;
+}
+
+.home-play-btn{
+    padding-top: 1em;
+    color: #FFFFFF;
+}
+
+.home-play-btn:hover{
+    color: #f6921e;
+}
+
+#4. Include the following JS
+
+<script>
+
+        // load Youtube API code asynchronously
+        var tag = document.createElement('script')
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0]
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+
+        var isiOS = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)/i) != null //boolean check for iOS devices
+
+        var youtubelightbox = document.getElementById('youtubelightbox')
+        var player // variable to hold new YT.Player() instance
+
+        // Hide lightbox when clicked on
+        youtubelightbox.addEventListener('click', function(){
+            this.style.display = 'none'
+            player.stopVideo()
+        }, false)
+
+        // Exclude youtube iframe from above action
+        youtubelightbox.querySelector('.centeredchild').addEventListener('click', function(e){
+            e.stopPropagation()
+        }, false)
+
+
+        // define onYouTubeIframeAPIReady() function and initialize lightbox when API is ready
+        function onYouTubeIframeAPIReady() {
+            createlightbox()
+        }
+
+        // Extracts the Youtube video ID from a well formed Youtube URL
+        function getyoutubeid(link){
+            // Assumed Youtube URL formats
+            // https://www.youtube.com/watch?v=Pe0jFDPHkzo
+            // https://youtu.be/Pe0jFDPHkzo
+            // https://www.youtube.com/v/Pe0jFDPHkzo
+            // and more
+
+            //See http://stackoverflow.com/a/6904504/4360074
+            var youtubeidreg = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i;
+            return youtubeidreg.exec(link)[1] // return Youtube video ID portion of link
+        }
+
+        // Creates a new YT.Player() instance
+        function createyoutubeplayer(videourl){
+            player = new YT.Player('playerdiv', {
+                videoId: videourl,
+                playerVars: {autoplay:1}
+            })
+        }
+
+        // Main Youtube lightbox function
+        function createlightbox(){
+            var targetlinks = document.querySelectorAll('.lightbox')
+            for (var i=0; i<targetlinks.length; i++){
+                var link = targetlinks[i]
+                link._videoid = getyoutubeid(link) // store youtube video ID portion of link inside _videoid property
+                targetlinks[i].addEventListener('click', function(e){
+                    youtubelightbox.style.display = 'block'
+                    if (typeof player == 'undefined'){ // if video player hasn't been created yet
+                        createyoutubeplayer(this._videoid)
+                    }
+                    else{
+                        if (isiOS){ // iOS devices can only use the "cue" related methods
+                            player.cueVideoById(this._videoid)
+                        }
+                        else{
+                            player.loadVideoById(this._videoid)
+                        }
+                    }
+                    e.preventDefault()
+                }, false)
+            }
+        }
+
+        function onYouTubeIframeAPIReady() {
+            createlightbox()
+        }
+
+        if (isiOS){ // iOS devices can only use the "cue" related methods
+            player.cueVideoById(this._videoid)
+        }
+        else{
+            player.loadVideoById(this._videoid)
+        }
+
+    </script>
+
     </body>
 </html>
