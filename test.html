@@ -9,7 +9,7 @@
     <body>  
 <a href="https://www.youtube.com/watch?v=uJit5m4x1-M" target="_blank" class="open-yt-lightbox">
   <!--  YouTube video thumbnail. It could also be text or whatever you want.  -->
-  <img src="https://i3.ytimg.com/vi/2p8ig-TrYPY/maxresdefault.jpg" />
+  <img src="https://i3.ytimg.com/vi/2p8ig-TrYPY/maxresdefault.jpg"  width=400px />
 </a>
 
 <!-- Lightbox wrapper, which also provides the dark backdrop. -->
@@ -23,15 +23,8 @@
     <!--  Wraps the iframe and helps vertically center  -->
     <div id="videowrapper" class="shadowed">
     <!--  The iframe with the YouTube video  -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nYb4FUdlLZE?enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/uJit5m4x1-M?enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
     </div>
-    <!--  Offer a direct link to the video in the lightbox
-          If the video doesn't load, but the lightbox does
-          they wouldn't be able to use the link on the thumbnail
-          Because it would continue running preventDefault -->
-    <div class="go-to-yt shadowed"><a href="https://www.youtube.com/watch?v=nYb4FUdlLZE" target="_blank">Video not loading? Watch on Youtube ></a></div>
-  </div>
-
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://n-buna404.github.io/js/youtube.js"></script>
