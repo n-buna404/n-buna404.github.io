@@ -1,28 +1,30 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<title>AishaChad Fork to test spacing html white space preline</title>
-<link rel="stylesheet" href="css/yt.css">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-body {
-    font-size: larger;
-}
-</style>
-</head>
-<div class="flex">
-
-  <label class="btn" for="show-vid">Show Video</label>
-
-</div>
-  
-<input id="show-vid" type="checkbox" />
-
-<div id="overlay" for="show-vid">
-  <div class="video-wrapper">
-    <label class="close" for="show-vid">Hide Video</label>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery Lightbox</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=v9aVd6qnEjA&amp;autoplay=1"><img src="http://i3.ytimg.com/vi/v9aVd6qnEjA/maxresdefault.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a data-fancybox="video-gallery" href="https://www.youtube.com/watch?v=K3vQXwNvKVo&amp;autoplay=1"><img src="http://i3.ytimg.com/vi/K3vQXwNvKVo/maxresdefault.jpg"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
 </html>
