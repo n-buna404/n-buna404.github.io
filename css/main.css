@@ -1,6 +1,7 @@
 body {
-   	margin: 60px auto;
-    	width: 70%;
+   	white-space: pre-line;
+	padding: 20px;
+	font-size: larger;
 }
 .body2 {
 	white-space: pre-line;
