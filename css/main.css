@@ -79,7 +79,6 @@ img {
 	height:100%;
 }
 /** LIGHTBOX MARKUP **/
-
 .lightbox {
   /* Default to hidden */
   display: none;
@@ -96,7 +95,7 @@ img {
   padding: 1em;
 
   /* Translucent background */
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 /* Unhide the lightbox when it's the target */
