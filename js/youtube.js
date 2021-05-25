@@ -1,88 +1,68 @@
-<script>
+$(document).ready(function(){
+  
+  //If iframe exists on page
+  if ( $('iframe').length >= 1 ) {
+    
+    // Inject YouTube API script
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-        // load Youtube API code asynchronously
-        var tag = document.createElement('script')
+    // On click of element with class .open-yt-lightbox
+        //Firefox needs you to manually hold ( event ), Chrome does not
+    $('.open-yt-lightbox').click(function( event ){
+      // Prevent link from opening youtube
+        // You don't need to link to YT since it's getting the element, not the link
+        // But if the user has JS disable, the link will still open the video on YT
+      event.preventDefault();
+      // Run the openbox function
+      openbox();
+    });
 
-        tag.src = "https://www.youtube.com/iframe_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0]
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+    // On click of element with class .close
+      // In this case, this is the X button when the lightbox is open
+    $('.close').click(function(){
+      // Run the closebox function
+      closebox();
+    });
 
-        var isiOS = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)/i) != null //boolean check for iOS devices
+    // On click of element with class .lightbox-backdrop
+      // In this case, the element wrapping the lightbox and iframe elements
+    $('.lightbox-backdrop').click(function(){
+      // Run the closebox function
+      closebox();
+    });
 
-        var youtubelightbox = document.getElementById('youtubelightbox')
-        var player // variable to hold new YT.Player() instance
+  }
+  // Global variable for Youtube API (Yes, this could be outside the document.ready function)
+  var player;
+});
 
-        // Hide lightbox when clicked on
-        youtubelightbox.addEventListener('click', function(){
-            this.style.display = 'none'
-            player.stopVideo()
-        }, false)
+// Youtube API calls this function when it's ready to go
+  // The name of this function CAN NOT be changed
+function onYouTubePlayerAPIReady() {
+  // Set the player variable to a new player (YT API), which is your iframe
+    // In this case, the iframe has the ID #yt-iframe to make it easy to grab
+    // You can also add your API params here, like events
+  player = new YT.Player('yt-iframe');
+}
 
-        // Exclude youtube iframe from above action
-        youtubelightbox.querySelector('.centeredchild').addEventListener('click', function(e){
-            e.stopPropagation()
-        }, false)
+// Function to open the lightbox
+function openbox(){
+  // Make the lightbox elements visible
+  $('.lightbox-backdrop, .box').css('display', 'inline-block');
+  $('.lightbox-backdrop, .box').animate({'opacity':'1'}, 300, 'linear');
+  // Start playing the video
+  player.playVideo();
+}
 
-
-        // define onYouTubeIframeAPIReady() function and initialize lightbox when API is ready
-        function onYouTubeIframeAPIReady() {
-            createlightbox()
-        }
-
-        // Extracts the Youtube video ID from a well formed Youtube URL
-        function getyoutubeid(link){
-            // Assumed Youtube URL formats
-            // https://www.youtube.com/watch?v=Pe0jFDPHkzo
-            // https://youtu.be/Pe0jFDPHkzo
-            // https://www.youtube.com/v/Pe0jFDPHkzo
-            // and more
-
-            //See http://stackoverflow.com/a/6904504/4360074
-            var youtubeidreg = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i;
-            return youtubeidreg.exec(link)[1] // return Youtube video ID portion of link
-        }
-
-        // Creates a new YT.Player() instance
-        function createyoutubeplayer(videourl){
-            player = new YT.Player('playerdiv', {
-                videoId: videourl,
-                playerVars: {autoplay:1}
-            })
-        }
-
-        // Main Youtube lightbox function
-        function createlightbox(){
-            var targetlinks = document.querySelectorAll('.lightbox')
-            for (var i=0; i<targetlinks.length; i++){
-                var link = targetlinks[i]
-                link._videoid = getyoutubeid(link) // store youtube video ID portion of link inside _videoid property
-                targetlinks[i].addEventListener('click', function(e){
-                    youtubelightbox.style.display = 'block'
-                    if (typeof player == 'undefined'){ // if video player hasn't been created yet
-                        createyoutubeplayer(this._videoid)
-                    }
-                    else{
-                        if (isiOS){ // iOS devices can only use the "cue" related methods
-                            player.cueVideoById(this._videoid)
-                        }
-                        else{
-                            player.loadVideoById(this._videoid)
-                        }
-                    }
-                    e.preventDefault()
-                }, false)
-            }
-        }
-
-        function onYouTubeIframeAPIReady() {
-            createlightbox()
-        }
-
-        if (isiOS){ // iOS devices can only use the "cue" related methods
-            player.cueVideoById(this._videoid)
-        }
-        else{
-            player.loadVideoById(this._videoid)
-        }
-
-    </script>
+// Function to close the lightbox
+function closebox() {
+  // Hide the lightbox elements
+  $('.lightbox-backdrop, .box').animate({'opacity':'0'}, 300, 'linear', function(){
+    $('.lightbox-backdrop, .box').css('display', 'none');
+    //Pause the video
+    player.pauseVideo();
+  });
+}
