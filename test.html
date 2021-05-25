@@ -8,16 +8,32 @@
     </head>
     <body>
         
-<div>
-        <a href="https://www.youtube.com/embed/1B9rLGfc9Vo" class="lightbox"><i class="fa fa-play fa-8 home-play-btn" aria-hidden="true"  style="font-size: 4em"></i></a>
-</div>
-<div id="youtubelightbox" class="parent">
-        <div class="centeredchild">
-            <div class="videowrapper">
-                <div id="playerdiv"></div>
-            </div>
-        </div>
+<a href="https://www.youtube.com/watch?v=uJit5m4x1-M" target="_blank" class="open-yt-lightbox">
+  <!--  YouTube video thumbnail. It could also be text or whatever you want.  -->
+  <img src="https://img.youtube.com/vi/uJit5m4x1-M/0.jpg" />
+</a>
+
+<!-- Lightbox wrapper, which also provides the dark backdrop. -->
+<div class="video-container-wrapper lightbox-backdrop">
+
+  <!--  Lets you restrict the video size to a % of the window (or rather, the backdrop)
+        and helps vertically center the block -->
+  <div class="sizewrapper box">
+    <!--  Close button  -->
+    <div class="close shadowed">X</div>
+    <!--  Wraps the iframe and helps vertically center  -->
+    <div id="videowrapper" class="shadowed">
+    <!--  The iframe with the YouTube video  -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nYb4FUdlLZE?enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
     </div>
+    <!--  Offer a direct link to the video in the lightbox
+          If the video doesn't load, but the lightbox does
+          they wouldn't be able to use the link on the thumbnail
+          Because it would continue running preventDefault -->
+    <div class="go-to-yt shadowed"><a href="https://www.youtube.com/watch?v=nYb4FUdlLZE" target="_blank">Video not loading? Watch on Youtube ></a></div>
+  </div>
+
+</div>
 <script src="/js/youtube.js" type="text/JavaScript"></script>
     </body>
 </html>
