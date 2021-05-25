@@ -1,11 +1,13 @@
 body {
    	margin: 60px auto;
     	width: 70%;
+}
+.body2 {
 	white-space: pre-line;
-	color: aliceblue;
-	background-color: rgb(30, 30, 30);
-	padding: 20px;
-	font-size: larger;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        font-size: larger;
 }
 .main {
 	background-color: rgba(255,255,255);
