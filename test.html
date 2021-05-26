@@ -7,7 +7,24 @@
         <link rel="stylesheet" href="css/yt.css">
     </head>
     <body>  
+<a href="https://www.youtube.com/watch?v=2p8ig-TrYPY" target="_blank" class="open-yt-lightbox">
+  <!--  YouTube video thumbnail. It could also be text or whatever you want.  -->
+  <img src="https://i3.ytimg.com/vi/2p8ig-TrYPY/maxresdefault.jpg"  width=400px />
+</a>
 
+<!-- Lightbox wrapper, which also provides the dark backdrop. -->
+<div class="video-container-wrapper lightbox-backdrop">
+
+  <!--  Lets you restrict the video size to a % of the window (or rather, the backdrop)
+        and helps vertically center the block -->
+  <div class="sizewrapper box">
+    <!--  Wraps the iframe and helps vertically center  -->
+    <div id="videowrapper" class="shadowed">
+    <!--  The iframe with the YouTube video  -->
+      <iframe width="1600" height="900" src="https://www.youtube.com/embed/2p8ig-TrYPY?enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
+    </div>
+  </div>
+</div><br>
 <a href="https://www.youtube.com/watch?v=2p8ig-TrYPY" target="_blank" class="open-yt-lightbox">
   <img src="https://i3.ytimg.com/vi/p6IJ82qv8W8/maxresdefault.jpg"  height=400px /></a>
 <div class="video-container-wrapper lightbox-backdrop">
@@ -15,7 +32,6 @@
     <div id="videowrapper" class="shadowed">
       <iframe width="1600" height="900" src="https://www.youtube.com/embed/p6IJ82qv8W8?start=10?enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
     </div>
-  </div>
 </div>    
    
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
