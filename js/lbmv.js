@@ -69,7 +69,7 @@ function _mklbAddYoutubeVideo(item) {
     iframe.setAttribute('frameborder', "0");
     iframe.setAttribute('allow', "autoplay; encrypted-media");
     iframe.setAttribute('allowfullscreen', "");
-    iframe.src = "https://www.youtube.com/embed/" + item.dataset.youtubeId + "?enablejsapi=1";
+    iframe.src = "https://www.youtube.com/embed/" + item.dataset.youtubeId + "&enableautoplay=1";
     return iframe;
 }
 
