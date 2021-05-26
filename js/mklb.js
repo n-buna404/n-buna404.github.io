@@ -117,7 +117,7 @@ function _mklbAddGallery(currentItem) {
 }
 
 function _closeLightbox() {
-    document.getElementById('mkLightboxContainer').close()
+    document.getElementById('mkLightboxContainer').remove()
 }
 
 function _mklbSlide(slideToPrev) {
