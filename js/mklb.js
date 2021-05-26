@@ -70,6 +70,7 @@ function _mklbAddYoutubeVideo(item) {
     iframe.setAttribute('allow', "autoplay; encrypted-media");
     iframe.setAttribute('allowfullscreen', "");
     iframe.src = "https://www.youtube-nocookie.com/embed/" + item.dataset.youtubeId;
+    player.playVideo();
     return iframe;
 }
 
@@ -117,7 +118,7 @@ function _mklbAddGallery(currentItem) {
 }
 
 function _closeLightbox() {
-    document.getElementById('mkLightboxContainer').remove()
+    document.getElementById('mkLightboxContainer').hide()
 }
 
 function _mklbSlide(slideToPrev) {
