@@ -70,7 +70,6 @@ function _mklbAddYoutubeVideo(item) {
     iframe.setAttribute('allow', "autoplay; encrypted-media");
     iframe.setAttribute('allowfullscreen', "");
     iframe.src = "https://www.youtube-nocookie.com/embed/" + item.dataset.youtubeId;
-    player.playVideo();
     return iframe;
 }
 
