@@ -1,5 +1,5 @@
 /**
- * MK Lightbox
+ * MKLB fork
  */
 
 const svgIcons = {
