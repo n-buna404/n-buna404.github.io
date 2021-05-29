@@ -120,7 +120,7 @@ img {
 
   .cursor {
   
-    display: none !important;
+    display: default !important;
     
     }
   }
