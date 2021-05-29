@@ -114,6 +114,8 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+/* invert colour cursor */
 @media ( hover: none ) {
 
   .cursor {
