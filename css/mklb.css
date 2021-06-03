@@ -169,20 +169,20 @@ section.imageContainer {
 
   .cursor {
   
-    display: none !important;
+    display: auto !important;
     
     }
   }
 
 * {
 
-  cursor: none;
+  cursor: auto;
   
   }
 
 .cursor {
 
-  --size: 10px;
+  --size: 30px;
   
   height: var( --size );
   width: var( --size );
