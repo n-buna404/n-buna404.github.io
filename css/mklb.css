@@ -176,7 +176,7 @@ section.imageContainer {
 
   .cursor {
   
-    display: auto !important;
+    display: none !important;
     
     }
   }
