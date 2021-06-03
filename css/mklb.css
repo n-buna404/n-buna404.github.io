@@ -182,7 +182,7 @@ section.imageContainer {
 
 .cursor {
 
-  --size: 30px;
+  --size: 20px;
   
   height: var( --size );
   width: var( --size );
