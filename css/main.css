@@ -114,5 +114,50 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
 }
+/* invert cursor */
+@media ( hover: none ) {
 
+  .cursor {
+  
+    display: none !important;
+    
+    }
+  }
+
+* {
+
+  cursor: auto;
+  
+  }
+
+.cursor {
+
+  --size: 20px;
+  
+  height: var( --size );
+  width: var( --size );
+  
+  border-radius: 50%;
+  pointer-events: none;
+  position: absolute;
+  transform: translate( -50%, -50% );
+  z-index: 99999999999;
+  
+  }
+
+.cursor.cursor-dot {
+
+  background: #ffffff; /* This defines the color of the cursor */
+  mix-blend-mode: difference; /* Delete this line if you dont want the circle to invert */
+  transition: width 0.6s, height 0.6s, background-color 0.6s;
+  transition-timing-function: ease-out;
+  
+  }
+
+.cursor-dot.active {
+
+  --size: 20px;
+  
+  background-color: #ffffff;
+}
 
