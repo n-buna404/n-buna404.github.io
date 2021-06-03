@@ -211,3 +211,6 @@ section.imageContainer {
   background-color: #ffffff;
   
   }
+.pointer {
+        cursor: pointer;
+      }
