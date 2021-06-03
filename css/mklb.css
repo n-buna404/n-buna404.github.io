@@ -206,7 +206,7 @@ section.imageContainer {
 
 .cursor-dot.active {
 
-  --size: 50px;
+  --size: 20px;
   
   background-color: #ffffff;
   
