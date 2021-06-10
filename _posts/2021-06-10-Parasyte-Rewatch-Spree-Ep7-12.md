@@ -17,7 +17,7 @@ No one else, not even that girl, Satomi has that special power.<br>
 So you feel me alone, too.<br>
 だからあなたも私だけを感じて。<br><br>
 新一加<br>
-<a href="https://www.youtube.com/watch?v=nYb4FUdlLZE" target="_blank" class="open-yt-lightbox">
+<a href="https://www.youtube.com/watch?v=74wFwu_b6Bc" target="_blank" class="open-yt-lightbox">
   <!--  YouTube video thumbnail. It could also be text or whatever you want.  -->
   <img src="/images/Kana Kimishima_49762656_p0.jpg" />
 </a>
