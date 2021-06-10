@@ -20,7 +20,7 @@ So you feel me alone, too.<br>
 <pre>
 <img class="mklbItem" src="/images/Kana Kimishima_49762656_p0.jpg" data-youtube-id="74wFwu_b6Bc?start=0" />
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/74wFwu_b6Bc?start=0" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/watch?v=6tcHq7JvPZg?start=0" width="800" height="450" frameborder="0" allowfullscreen></iframe>
 </div>
 </pre>
 "Kana was not simply a stalker she was a dumb stalker and her death was her fault only. Even with her new special ability if she had only stayed more cautious and not go to dark, deserted, creepy places on her own(sic!) she would be just fine. Besides she wasn't even smart enough to learn from her own mistakes. Even in this episode she has mistaken Shinichi with some other parasite at least once, what the hell was she thinking just strolling after him later?<br>
