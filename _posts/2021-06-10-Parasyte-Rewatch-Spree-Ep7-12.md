@@ -17,8 +17,31 @@ No one else, not even that girl, Satomi has that special power.<br>
 So you feel me alone, too.<br>
 だからあなたも私だけを感じて。<br><br>
 新一加<br>
-<a href="#img1"><img src="/images/Kana Kimishima_49762656_p0.jpg" /></a>
-<a href="#_" class="lightbox" id="img1"><span style="background-image: url('https://www.youtube.com/watch?v=74wFwu_b6Bc')"></span></a><br />
+<a href="https://www.youtube.com/watch?v=nYb4FUdlLZE" target="_blank" class="open-yt-lightbox">
+  <!--  YouTube video thumbnail. It could also be text or whatever you want.  -->
+  <img src="/images/Kana Kimishima_49762656_p0.jpg" />
+</a>
+
+<!-- Lightbox wrapper, which also provides the dark backdrop. -->
+<div class="video-container-wrapper lightbox-backdrop">
+
+  <!--  Lets you restrict the video size to a % of the window (or rather, the backdrop)
+        and helps vertically center the block -->
+  <div class="sizewrapper box">
+
+    <!--  Wraps the iframe and helps vertically center  -->
+    <div id="videowrapper" class="shadowed">
+    <!--  The iframe with the YouTube video  -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/74wFwu_b6Bc?start=0&enablejsapi=1" frameborder="0" id="yt-iframe" allowfullscreen></iframe>
+    </div>
+    <!--  Offer a direct link to the video in the lightbox
+          If the video doesn't load, but the lightbox does
+          they wouldn't be able to use the link on the thumbnail
+          Because it would continue running preventDefault -->
+
+
+</div>
+
 <img class="mklbItem" src="/images/Kana Kimishima_49762656_p0.jpg" data-youtube-id="74wFwu_b6Bc?start=0" /><br><br>
 "Kana was not simply a stalker she was a dumb stalker and her death was her fault only. Even with her new special ability if she had only stayed more cautious and not go to dark, deserted, creepy places on her own(sic!) she would be just fine. Besides she wasn't even smart enough to learn from her own mistakes. Even in this episode she has mistaken Shinichi with some other parasite at least once, what the hell was she thinking just strolling after him later?<br>
 I don't really understand all those comments describing her as "interesting" or "best". Her only motivation throughout the series was to date Shinichi and her absolute lack of reason was almost unbeliavable. The only thing I was able to think about when she got stabbed was JUST DIE ALREADY. And even if I am a bit harsh on her the sad truth is that if you don't think fast - you die fast."<br><br>
