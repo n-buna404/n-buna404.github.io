@@ -17,7 +17,12 @@ No one else, not even that girl, Satomi has that special power.<br>
 So you feel me alone, too.<br>
 だからあなたも私だけを感じて。<br><br>
 新一加<br>
-<pre><img class="mklbItem" src="/images/Kana Kimishima_49762656_p0.jpg" data-youtube-id="74wFwu_b6Bc?start=0" /></pre><br><br>
+<pre>
+<img class="mklbItem" src="/images/Kana Kimishima_49762656_p0.jpg" data-youtube-id="74wFwu_b6Bc?start=0" />
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/74wFwu_b6Bc?start=0" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+</div>
+</pre><br>
 "Kana was not simply a stalker she was a dumb stalker and her death was her fault only. Even with her new special ability if she had only stayed more cautious and not go to dark, deserted, creepy places on her own(sic!) she would be just fine. Besides she wasn't even smart enough to learn from her own mistakes. Even in this episode she has mistaken Shinichi with some other parasite at least once, what the hell was she thinking just strolling after him later?<br>
 I don't really understand all those comments describing her as "interesting" or "best". Her only motivation throughout the series was to date Shinichi and her absolute lack of reason was almost unbeliavable. The only thing I was able to think about when she got stabbed was JUST DIE ALREADY. And even if I am a bit harsh on her the sad truth is that if you don't think fast - you die fast."<br><br>
 "ur like a parasyte, just looking into the facts and not empathy. Human thinking is irrational, meaning that our rational thoughts can get clouded by emotions. Kana had dreams, was actually in love with Shinichi and could sense him. It might have been her fault, but some/most people would assume it isn't a cooincidence and they're linked by the red thread of fate or something. So it's her fault, but it's not really HER fault but rather the human brain thinking irrationally."
