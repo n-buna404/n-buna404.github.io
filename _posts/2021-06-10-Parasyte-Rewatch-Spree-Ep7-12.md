@@ -16,7 +16,7 @@ No one else, not even that girl, Satomi has that special power.<br>
 他の誰にも、里美てこにもできない、特別の力。<br><br>
 So you feel me alone, too.<br>
 だからあなたも私だけを感じて。<br><br>
-新一加<br> /* <img class="mklbItem" src="/images/Kana Kimishima_49762656_p0.jpg" data-youtube-id="74wFwu_b6Bc?start=0" /> */
+新一加<br> <!-- <img class="mklbItem" src="/images/Kana Kimishima_49762656_p0.jpg" data-youtube-id="74wFwu_b6Bc?start=0" /> -->
 <pre>
 <a href="#img1"><img src="/images/Kana Kimishima_49762656_p0.jpg"></a>
 <a href="#" class="lightbox" id="img1"><span style="background-image: url('/images/Kana Kimishima_49762656_p0.jpg')"></span></a><br>
