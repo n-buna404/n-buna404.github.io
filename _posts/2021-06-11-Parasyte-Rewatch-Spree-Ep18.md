@@ -13,4 +13,4 @@ They said pictures worth thousand of words. <br>
 <a href="#img2"><img src="/images/comp.gif"></a>
 <a href="#_" class="lightbox" id="img2"><span style="background-image: url('/images/comp.gif')"></span></a>
 <a href="#img3"><img src="/images/warate.png"></a>
-<a href="#_" class="lightbox" id="img2"><span style="background-image: url('/images/warate.png')"></span></a>
+<a href="#_" class="lightbox" id="img3"><span style="background-image: url('/images/warate.png')"></span></a>
