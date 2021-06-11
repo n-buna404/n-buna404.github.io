@@ -14,6 +14,6 @@ He is not the only one affected by all this.<br>
 Everyone here is trying their best to forgot what happened!<br>
 この学校のみんな、無理して忘れ余としてるよに<br><br>
 We were all supposed to be leading perfectly normal lives like every other high-school student.<br>
-もともと普通の道はつだよ、ただの高校のなの<br><br>
+もともと普通の道はつだよ、ただの高校の<br><br>
 But just one little step off the track, there is blood everywhere!<br>
-にちょとあるとつこが、血でべとりしてる
+なのにちょとあるとつこが、血でべとりしてる
