@@ -6,7 +6,7 @@ date: 2021-06-10
 A dead dog isn't a dog anymore. It is a dog-shaped lump of meat.<br><br>
 The power of fan girl. I am always observing you.<br><br>
 Oh shot, blue bird 青い鳥。My PTSD is coming back. To be honest, I had always been team kana. If only she listened to what shinichi said. Another "I can't cry but I am dying inside" incoming.<br><br>
-Unrequited love huh. That is more than enough itami（痛み）we need already. Btw miyuki sawahiro had a distinctive low pitch at every end of her line. For your info, she was voicing Sinon from GGO. <br><br>
+Unrequited love huh. That is more than enough itami（痛み）we need already. Btw miyuki sawahiro had a distinctive low pitch at every end of her line. For your info, she also voiced Sinon from GGO. <br><br>
 Ep12-心　14:55 <br>
 I will show you my power properly this time for sure.<br>
 今度こそ、ちゃんと私の力見せた上げる。<br><br>
