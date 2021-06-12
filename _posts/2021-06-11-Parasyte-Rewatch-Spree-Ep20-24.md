@@ -28,5 +28,6 @@ Quotes from reddit<br><br>
 I think that's exactly what Murano thought in the end, though. He wasn't one of the monsters because he behaved like a human, he had ethics and a conscience.<br>
 Think of it like this, we have in the end of the series a face off between a full blooded human who is in every sense a monster, and a human who has an actual monster living inside of him who has more compassion and human traits than the actually untainted human holding a knife to Murano.<br>
 I think that speaks well for how she felt. He doesn't need to be a human, he just needs to act like one. It's not who you are that defines you, but your actions and choices"<br><br>
-"Humans don't have an exclusive right to being humane. Some of us are just downright monsters. And maybe all the Parasytes aren't bad, they're just trying to survive like the rest of us."
-
+"Humans don't have an exclusive right to being humane. Some of us are just downright monsters. And maybe all the Parasytes aren't bad, they're just trying to survive like the rest of us."<br>
+<a href="#img1"><img src="/images/miginevermiss.gif"></a>
+<a href="#_" class="lightbox" id="img1"><span style="background-image: url('/images/murano.png')"></span></a>
