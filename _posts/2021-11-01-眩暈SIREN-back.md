@@ -12,7 +12,7 @@ Project spinoid recently also released [ep3 人生](https://www.youtube.com/watc
 Lastly let me share one song from them that I had been looping recently.<br>
 空気より透明な<br>
 However, the embed video is unrelated. It is actually a short animated pv that they made for the songs of their new album. I mean 紫陽花 is a nice include for their latest album but I hope it gets 音が孤独を覆うまで Ver. too.<br>
-Enjoy!
+
 <pre>
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/F9Gx5hkKxCw?start=0" width="800" height="450" frameborder="0" allowfullscreen></iframe>
