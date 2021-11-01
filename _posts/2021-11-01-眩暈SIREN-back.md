@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "眩暈SIREN back"
+title: "眩暈SIREN is back"
 date: 2021-11-01
 ---
 
 TBH  I am quite surprised when I get to know that MEMAI SIREN wrote an absolute banger for Build Divide: Code Black.
 Looking forward for their new album.
 
-Project spinoid also relesed ep3 recently. What a great time to be alive.
+Project spinoid recently also released ep3. It is such a great time to be alive.
 
-Let share one song from them that I had been looping recently.<br>
+Lastly let me share one song from them that I had been looping recently.<br>
 空気より透明な
 <pre>
 <div class="video-container">
