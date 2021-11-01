@@ -5,13 +5,13 @@ date: 2021-11-01
 ---
 
 TBH  I am quite surprised when I get to know that MEMAI SIREN wrote an absolute banger for Build Divide: Code Black.
-Looking forward for their new album [喪失](https://smr.lnk.to/MEMAISIREN_SOUSHITSU).
+Looking forward to their new album [喪失](https://smr.lnk.to/MEMAISIREN_SOUSHITSU).
 
 Project spinoid recently also released [ep3 人生](https://www.youtube.com/watch?v=GnlP_d0asII). It is such a great time to be alive.
 
 Lastly let me share one song from them that I had been looping recently.<br>
 空気より透明な<br>
-However, the embed video is unrelated. It is actually a short animated pv that they made for the songs of their new album. I mean 紫陽花 is nice too.<br>
+However, the embed video is unrelated. It is actually a short animated pv that they made for the songs of their new album. I mean 紫陽花 is a nice include for their latest album but I hope it got 音が孤独を覆うまで Ver. too.<br>
 Enjoy!
 <pre>
 <div class="video-container">
