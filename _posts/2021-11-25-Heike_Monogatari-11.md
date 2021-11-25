@@ -3,6 +3,7 @@ layout: post
 title: "Heike Monogatari 11"
 date: 2021-11-25
 ---
+“the river of lives goes on and on as people got swept over by the tides of history”<br><br>
 
 The Buddha's temple bells toll the message<br>
 that all existence is impermanent.<br>
