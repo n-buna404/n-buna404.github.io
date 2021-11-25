@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Parasyte Rewatch Ep 1 & 2"
-date: 2021-06-09
+title: "Heike Monogatari 11"
+date: 2021-11-25
 ---
 
 The Buddha's temple bells toll the message<br>
