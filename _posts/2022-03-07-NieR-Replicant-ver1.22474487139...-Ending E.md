@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Just finished NieR Replicant ver 1.22474487..."
+title: "Just finished NieR Replicant ver 1.22474487139..."
 date: 2022-03-07
 ---
 
