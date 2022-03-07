@@ -15,7 +15,7 @@ I am so glad NieR got called out for this.<br>
 <h1>"GET YOUR ASS BACK HERE, you rotten ******!"</h1><br>
 Best scene XD.<br>
 Let end this with the last weapon story of the 38 weapons in game. Play this song when u read them.<br>
-Why this u asked? Well this is the closest one I can found to the game ost playing for the weapon story section (maybe due to my location and applied Change Music.<br>
+Why this u asked? Well this is the closest one I can found to the game ost playing for the weapon story section (maybe due to my location and applied Change Music.)<br>
 To be honest, it fits perfectly with Ending E and the story of this weapon.<br>
 <pre>
 <div class="video-container">
