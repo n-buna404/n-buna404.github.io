@@ -4,6 +4,8 @@ title: "Just finished NieR Replicant ver 1.22474487..."
 date: 2022-03-07
 ---
 
+<a href="#img1"><img src="/images/Wallpaper_7.png"></a>
+<a href="#" class="lightbox" id="img1"><span style="background-image: url('/images/Wallpaper_7.png')"></span></a><br>
 At first, I was intrigued to play NieR Automata after heard after the announcement of anime project. It was a game that kinda like cool but I never tried it for some reason. There are some comments from the announcement which was like what about anime for Part 1. Then I was like 'Never heard of the part one.' All knowing Google bestowed me upon the knowledge NieR Replicant/Gestalt which was released in 2010 and had a version upgrade just in 2021. Guess I will start the series with this.<br><br>
 After 60+ hours of playing (insert Song of the Ancients), I finally cleared Ending E. (Quest completion 98% cuz I said no the nett negative gold quest in Part 1.) Tbh I enjoyed Part 1 a lot more. Chillng around, doing quests and meeting new acquaintance was the best part of the story. Maybe Yoko should not make ppl grind through 4 times for all endings even with subtle change it would kinda exhaust you. Unless you played as another character coughing at ahem ahem Automata. When I got to play as Kaine in Ending E. Oh boy! You can't imagine how happy I was. I even duplicate the save files so that I can rerun with different costumes.<br><br>
 Ending E is the adaption of same title short story from the 2010 Grimoir NieR. It was very well executed. A moment of silence for those that play until Ending A and thought they had finshed it.<br><br>
