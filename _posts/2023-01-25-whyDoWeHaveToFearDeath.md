@@ -1,4 +1,4 @@
-<b>Why do we have to fear death?</b><br>
+<b>Why do we have to fear death?<br>
 Do we live because we  don't want to die?<br>
 Does anything good come from being alive?</b><br>
 Not for me.<br>
