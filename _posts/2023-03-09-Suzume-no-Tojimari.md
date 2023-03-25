@@ -1,5 +1,5 @@
-<a href="#img1"><img src="/images/suzume.png"></a>
-<a href="#" class="lightbox" id="img1"><span style="background-image: url('/images/suzume.png')"></span></a><br>
+<a href="#img1"><img src="/images/suzume.jpg"></a>
+<a href="#" class="lightbox" id="img1"><span style="background-image: url('/images/suzume.jpg')"></span></a><br>
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/6R6q2fAp2n4?start=0&autoplay=1&enablejsapi=1" width="800" height="450" frameborder="0" allowfullscreen></iframe>
 </div>
